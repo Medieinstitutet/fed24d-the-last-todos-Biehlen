@@ -1,11 +1,15 @@
-import "./Header.css";
-
 export const Header = () => {
     return (
         <>
-            <header>
-                <img src="src/assets/Logo.png" alt="A white logo of a clipboard with the text To-Do List on it." />
-                <h1>Get shit done</h1>
+            <header className="bg-[#1A5CCF] h-[150px] w-screen flex justify-between items-center">
+                <img 
+                    src="src/assets/Logo.png" 
+                    alt="A white logo of a clipboard with the text To-Do List on it."
+                    className="h-[150px] ml-[5%]" 
+                />
+                <h1 className="font-thin text-[1.3rem] mr-[5%] text-white">
+                    Get shit done
+                </h1>
             </header>
         </>
     );
