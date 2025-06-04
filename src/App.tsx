@@ -48,6 +48,7 @@ const removeTodo = (id: number) => {
   return (
     <>
       <Header />
+      
       <div className="max-w-xl md:max-w-xl lg:max-w-3xl mx-auto p-4 text-right">
         <SortDropdown sortOrder={sortOrder} setSortOrder={setSortOrder} />
       </div>
