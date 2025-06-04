@@ -1,9 +1,11 @@
+import logo from '../assets/Logo.png';
+
 export const Header = () => {
     return (
         <>
             <header className="bg-[#1A5CCF] h-[150px] w-screen flex justify-between items-center">
                 <img 
-                    src="src/assets/Logo.png" 
+                    src={logo} 
                     alt="A white logo of a clipboard with the text To-Do List on it."
                     className="h-[150px] ml-[5%]" 
                 />
