@@ -10,4 +10,5 @@ export const initialTodos: Todo[] = [
     {id: Date.now() +6, title: "Book a trip", isCompleted: false},
     {id: Date.now() +7, title: "Go swimming", isCompleted: false},
     {id: Date.now() +8, title: "Go for a run", isCompleted: false},
+    {id: Date.now() +8, title: "Learn to dance", isCompleted: false},
 ];
